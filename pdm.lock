@@ -16,6 +16,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "djangorestframework"
+version = "3.13.1"
+requires_python = ">=3.6"
+summary = "Web APIs for Django, made easy."
+dependencies = [
+    "django>=2.2",
+    "pytz",
+]
+
+[[package]]
+name = "pytz"
+version = "2022.1"
+summary = "World timezone definitions, modern and historical"
+
+[[package]]
 name = "sqlparse"
 version = "0.4.2"
 requires_python = ">=3.5"
@@ -29,7 +44,7 @@ summary = "Provider of IANA time zone data"
 
 [metadata]
 lock_version = "3.1"
-content_hash = "sha256:d1367481e799f4ceb9430a542b42d23a53d019b77551311bb130a569567f5ac2"
+content_hash = "sha256:4cfaa9d991d92fbec34574e990a82f4b3af05e16c671b2e53496c50fb4f28487"
 
 [metadata.files]
 "asgiref 3.5.2" = [
@@ -39,6 +54,14 @@ content_hash = "sha256:d1367481e799f4ceb9430a542b42d23a53d019b77551311bb130a5695
 "django 4.0.5" = [
     {file = "Django-4.0.5-py3-none-any.whl", hash = "sha256:502ae42b6ab1b612c933fb50d5ff850facf858a4c212f76946ecd8ea5b3bf2d9"},
     {file = "Django-4.0.5.tar.gz", hash = "sha256:f7431a5de7277966f3785557c3928433347d998c1e6459324501378a291e5aab"},
+]
+"djangorestframework 3.13.1" = [
+    {file = "djangorestframework-3.13.1-py3-none-any.whl", hash = "sha256:24c4bf58ed7e85d1fe4ba250ab2da926d263cd57d64b03e8dcef0ac683f8b1aa"},
+    {file = "djangorestframework-3.13.1.tar.gz", hash = "sha256:0c33407ce23acc68eca2a6e46424b008c9c02eceb8cf18581921d0092bc1f2ee"},
+]
+"pytz 2022.1" = [
+    {file = "pytz-2022.1-py2.py3-none-any.whl", hash = "sha256:e68985985296d9a66a881eb3193b0906246245294a881e7c8afe623866ac6a5c"},
+    {file = "pytz-2022.1.tar.gz", hash = "sha256:1e760e2fe6a8163bc0b3d9a19c4f84342afa0a2affebfaa84b01b978a02ecaa7"},
 ]
 "sqlparse 0.4.2" = [
     {file = "sqlparse-0.4.2-py3-none-any.whl", hash = "sha256:48719e356bb8b42991bdbb1e8b83223757b93789c00910a616a071910ca4a64d"},

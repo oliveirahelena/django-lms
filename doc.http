@@ -1,0 +1,6 @@
+### List all teachers
+
+GET http://localhost:8000/api/teacher/ HTTP/1.1
+Authorization: Token c9b6be3f00be1d9690db769c2aa67f7e39067091
+
+### 
